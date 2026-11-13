@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="瀏覽 KOREAN DISCOVERY 韓文探索誌的所有主題文章。">
+  <meta name="theme-color" content="#F8F6F0">
+  <title>主題文章｜KOREAN DISCOVERY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;900&family=Noto+Serif+KR:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><script src="js/articles.js" defer></script><script src="js/main.js" defer></script>
+</head>
+<body data-page="listing">
+  <div class="announcement"><span class="announcement-dot"></span> THE STORY ARCHIVE <span class="announcement-divider">/</span> FIND SOMETHING NEW</div>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">ㄱ</span><span class="brand-word">KOREAN <b>DISCOVERY</b><small>韓文探索誌</small></span></a>
+    <button class="menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="主要導覽"><a href="index.html">首頁 <i>HOME</i></a><a class="active" href="articles.html">主題文章 <i>STORIES</i></a><a href="articles.html?category=Hangul">韓文字母 <i>HANGUL</i></a><a href="articles.html?category=Korean%20Culture">韓國文化 <i>CULTURE</i></a><a class="nav-about" href="index.html#about">關於我們 <span>↗</span></a></nav>
+  </div></header>
+  <main>
+    <section class="listing-hero"><div class="container listing-hero-inner"><p class="eyebrow">THE KOREAN STORY ARCHIVE / 2026</p><h1>每個主題，都是<br><em>一扇新的窗。</em></h1><p>從字母、日常對話到韓國文化，挑一篇你感興趣的故事，開始今天的探索。</p><div class="listing-meta"><span id="article-count">05 STORIES</span><span>CURATED FOR BEGINNERS</span></div></div><div class="listing-hero-stamp">ISSUE<br><b>01</b></div></section>
+    <section class="section container archive-section">
+      <div class="archive-toolbar">
+        <div class="filter-tabs" id="category-filters" aria-label="文章分類篩選">
+          <button class="filter-button active" data-category="all" type="button">全部文章 <span>ALL</span></button>
+          <button class="filter-button" data-category="Hangul" type="button">韓文字母</button>
+          <button class="filter-button" data-category="Daily Korean" type="button">日常韓文</button>
+          <button class="filter-button" data-category="Korean Culture" type="button">韓國文化</button>
+          <button class="filter-button" data-category="Internet Slang" type="button">網路流行語</button>
+          <button class="filter-button" data-category="Language Facts" type="button">語言趣聞</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input id="article-search" type="search" placeholder="搜尋文章..." aria-label="搜尋文章"></label>
+      </div>
+      <div class="archive-result-line"><span id="result-label">ALL STORIES</span><span>READ, WONDER, REPEAT. ↗</span></div>
+      <div class="article-grid" id="all-articles" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><span>아직 없어요.</span><p>目前找不到符合條件的文章，試試其他關鍵字吧。</p><button class="button button-dark" id="clear-filters" type="button">清除篩選</button></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand brand-footer" href="index.html"><span class="brand-mark">ㄱ</span><span class="brand-word">KOREAN <b>DISCOVERY</b><small>韓文探索誌</small></span></a><p>一點韓文，一點文化，<br>每天多認識一點點。</p><div class="footer-links"><a href="index.html">首頁</a><a href="articles.html">主題文章</a><a href="index.html#about">關於我們</a></div></div><div class="container footer-bottom"><span>© 2026 KOREAN DISCOVERY</span><span>MADE FOR THE CURIOUS.</span><a href="#">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
